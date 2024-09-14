@@ -1,0 +1,7 @@
+#This is the pxelinux.cfg/default file, kernel and boot.cfg is pointed here. After mboot.efi runs it searches for this file.
+
+DEFAULT esxi
+      LABEL esxi
+      kernel mboot.c32
+      append -c boot.cfg
+      ipappend 2

@@ -33,7 +33,7 @@ I have find mboot.c32 file from SYSLINUX-3.86
             ├── boot.cfg
             ├── pxelinux.cfg
                 └── default
-			      │
+            │
             └── vmware
                 ├── efi
                 │   └── boot

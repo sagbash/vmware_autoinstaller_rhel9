@@ -6,7 +6,7 @@ I wanted to install VMWare Esxi on my bare-metal servers with full-automated ins
 For this job three services are needed. DHCP, TFTP and HTTP.
 1 server machine has been used, the services are installed and configured under it.
 
-The DHCP server needs to on the same LAN with the bare-metal server.
+The DHCP server needs to be on the same LAN with the bare-metal server.
 
 tftp service serves the directory /var/lib/tftpboot
 DHCP is for assigning IP address and guide to server to PXE boot with the options 66,67.
